@@ -1,0 +1,15 @@
+//signed right Shift
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 10;
+        int b = 1;
+       
+        a = a>>b; //40, also if a is -10 and b is 1 then output is -5
+        System.out.println(a);
+           
+	}
+}
