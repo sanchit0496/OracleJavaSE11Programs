@@ -1,0 +1,25 @@
+public class Main{
+    
+   public static int division(int a, int b) throws ArithmeticException{ 
+       int t = a/b;
+       return t;
+   }
+   
+   public static void main(String args[]){
+       
+       try{ 
+           division(15,0);
+           System.out.println();
+       }catch(ArithmeticException e){  
+           System.out.println("ArithmeticException Bro");
+       }
+        
+       
+     
+
+   }
+   
+   
+   
+   
+}
