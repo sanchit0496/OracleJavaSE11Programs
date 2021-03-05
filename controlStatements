@@ -18,8 +18,7 @@ public class Main
         //     System.out.println("No");
         // }
         
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        
         
         // switch(a){ 
             
@@ -44,25 +43,80 @@ public class Main
         // }
         
         
-        switch(a){ 
+        // switch(a){ 
             
-            case 1: 
-            case 2: 
-            case 3: 
-            case 4:         
-            case 5:
-                System.out.println("Upto Five");
-                break;
-            case 6: 
-            case 7: 
-            case 8: 
-            case 9:         
-            case 10:
-                System.out.println("Upto Ten");
-                break;
-            default: 
-                System.out.println("Default");
-        }
+        //     case 1: 
+        //     case 2: 
+        //     case 3: 
+        //     case 4:         
+        //     case 5:
+        //         System.out.println("Upto Five");
+        //         break;
+        //     case 6: 
+        //     case 7: 
+        //     case 8: 
+        //     case 9:         
+        //     case 10:
+        //         System.out.println("Upto Ten");
+        //         break;
+        //     default: 
+        //         System.out.println("Default");
+        // }
+        
+    //     Scanner sc = new Scanner(System.in);
+    //     int a = sc.nextInt(); 
+    //     int b = sc.nextInt();
+	
+	   // switch(a){ 
+            
+    //         case 1: 
+    //             switch(b){ 
+    //                 case 10: 
+    //                     System.out.println("Pizza");
+    //                     break;
+    //                 case 20:
+    //                     System.out.println("Burger");
+    //                     break;
+    //                 default:
+    //                     System.out.println("Pasta");
+    //                     break;
+    //             }
+                
+    //         break;
+    //         case 2: 
+    //             switch(b){
+    //                 case 10: 
+    //                     System.out.println("Juice");
+    //                     break;
+    //                 case 20:
+    //                     System.out.println("Soft Drinks");
+    //                     break;
+    //                 default:
+    //                     System.out.println("Water");
+    //                     break;
+    //             }
+            
+    //         break;
+    //         default: 
+    //             System.out.println("Default");
+    //     }
+	
+	
+	Scanner sc = new Scanner(System.in);
+	int a = sc.nextInt();
+	
+	while(a > 0){
+	    a--;
+	    System.out.println("hello");
+	    
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	}
 }
