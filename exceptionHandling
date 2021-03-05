@@ -1,0 +1,78 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+        
+        // int a = 10;
+        // int b = 0;
+        
+//         System.out.println(a/b);
+        
+//         try{
+            
+//         }catch(ArithmeticException e){ 
+//             System.out.println(e);
+//         }
+		
+// 		System.out.println("Java");
+		
+	   // int[] arr = new int[4];
+
+	   // try{
+	   //         System.out.println(arr[8]);    
+	   // }catch(ArrayIndexOutOfBoundsException e){
+	   //     //System.out.println("Check Arithematics");
+	   //     //System.out.println(a/(b+2));
+	   //     System.out.println(e);
+	   // }
+	   
+	   
+	   //int a = 10;
+	   //int b = 0;
+	   //int c;
+	   
+	   //try{
+	   //    c = a/b;
+	   //}catch(ArithmeticException e1){
+	   //    System.out.println("ArithmeticException");
+	   //}catch(ArrayIndexOutOfBoundsException e1){
+	   //    System.out.println("ArrayIndexOutOfBoundsException");
+	   //}catch(Exception e){  
+	   //    System.out.println("Others");
+	   //}
+	   ////}finally{ 
+	   ////    System.out.println("Finally");
+	   ////}
+	   
+	   
+	   //System.out.println("Java");
+	   
+	   //String a = "";
+	   ////System.out.println(a.length());
+	   
+	   //String a = null;
+	   
+	   //try{
+	   //System.out.println(a.length());
+	   //}catch(NullPointerException e){ 
+	   //    System.out.println("NLPS");
+	   //} 
+	    
+	   // System.out.println("Java");
+	    
+	    test(15);
+	}
+	
+	public static void test(int age){  
+	    if(age < 18){  
+	        throw new ArithmeticException("underage");         
+	    }else{ 
+	        System.out.println("Adult");
+	    }
+	}
+	
+	
+	
+	
+	
+}
