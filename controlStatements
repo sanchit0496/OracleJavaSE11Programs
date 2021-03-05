@@ -102,22 +102,85 @@ public class Main
     //     }
 	
 	
-	Scanner sc = new Scanner(System.in);
-	int a = sc.nextInt();
 	
-	while(a > 0){
-	    a--;
-	    System.out.println("hello");
+	 //will print five namaste 	
+// 	while(a > 0){
+// 	    System.out.println("namaste");
+// 	   a--;
+//  	}
+	
+	//will print five hello
+// 	while(a > 0){
+// 	     a--;  
+// 	    System.out.println("hello");
+	   
+//  	}
+
+
+//     boolean print = true;
+    
+//     // while(print){ 
+//     //     print = false;
+//     //     System.out.println("True");
+        
+//     // }
+	
+// 	do{
+// 	    System.out.println("True");
+// 	    print = false;
+// 	}while(print = true);
+
+
+// 	String[] drinks = new String[5];
+// 	drinks[0] = "a";
+// 	drinks[1] = "b";
+// 	drinks[2] = "c";
+// 	drinks[3] = "d";
+// 	drinks[4] = "e";
+	
+// // 	for(String drink: drinks){  
+// // 	    System.out.println(drink);
+// // 	}
+	
+// 	forEach(String drink: drinks){  
+// 	    System.out.println(drink);
+// 	}
+	
+	
+// 	for(int i = 0; i < 5; i++){ 
+//         if(i == 2){ 
+// 	        break;
+// 	    }	    
+// 	    System.out.println("java");
+
+// 	}
+	
+// 	for(int i = 0; i < 5; i++){ 
+// 	    for(int j = 0; j < 5; j++){ 
 	    
+// 	    }   
+// 	}
+	
+	
+// 	for(int i = 0; i < 10; i++){  
+	    
+// 	    if(i % 2 == 0){
+// 	        continue;
+	        
+// 	    }
+// 	    System.out.println("Hello");
+// 	}
+	
+	int  a = multiplier(5);
+	System.out.println(a);
+	
+	
 	}
 	
-	
-	
-	
-	
-	
-	
-	
+	static int multiplier(int n){ 
+	    return (n*n);
 	}
+	
 }
+
 
