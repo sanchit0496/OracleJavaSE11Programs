@@ -8,7 +8,18 @@ public class Main
 		int b = 5;
 		int max;
 		
-	    max = (a>b)? a:b;
-        System.out.println(max);		
+	    	max = (a>b)? a:b;
+        	System.out.println(max);
+		
+		
+		String boy = "Mohit";
+		String girl = "Myra";
+		
+		String kid;
+		int a = boy.length();
+		int b = girl.length();
+		
+		kid = (a > b)? "Mohit":"Myra";
+		System.out.println(kid);
 	}
 }
