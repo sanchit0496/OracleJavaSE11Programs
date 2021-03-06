@@ -6,3 +6,106 @@ public class Main{
     }
     
 }
+
+
+
+class Box{ 
+    int length;
+    int width;
+    int height;
+}
+
+public class Main{
+    public static void main(String[] args){  
+        int volume;
+        Box toy = new Box();
+        
+        int a = toy.length = 10;
+        int b = toy.width = 10;
+        int c = toy.height = 20;
+        volume = b*c*a;
+        System.out.println(volume);
+    }
+}
+
+
+class Box{ 
+    int length;
+    int width;
+    int height;
+    
+    int volume(){  
+        return(length * width * height);
+    }
+    
+}
+
+public class Main{
+    public static void main(String[] args){  
+        
+        Box toy1 = new Box();
+        Box toy2 = new Box();
+        
+        toy1.length = 10;
+        toy1.width = 10;
+        toy1.height = 10;
+
+        toy2.length = 10;
+        toy2.width = 10;
+        toy2.height = 10;
+        
+        int v1 = toy1.volume();
+        int v2 = toy2.volume();
+        System.out.println(v1);
+        System.out.println(v2);
+        
+        
+    }
+}
+
+
+
+
+
+class Box{ 
+    int length;
+    int width;
+    int height;
+    
+    void setDimension(int a, int b, int c){ 
+        length = a;
+        width = b;
+        height = c;
+    }
+    
+    int volume(){  
+        return width* length * height;
+    }
+    
+}
+
+public class Main{
+    public static void main(String[] args){  
+        
+        Box toy1 = new Box();
+        Box toy2 = new Box();
+        
+        toy1.setDimension(10,10,10);
+        toy2.setDimension(20,20,20);
+
+
+        int a = toy1.volume();
+        int b = toy2.volume();
+        
+        System.out.println(a);
+        System.out.println(b);
+        
+    }
+}
+
+
+
+
+
+
+
