@@ -1,0 +1,66 @@
+class validToVote extends Exception{
+    validToVote(String s){ 
+        super(s);
+    }
+}
+
+class Main{  
+    
+    static void checker(int age) throws validToVote{ 
+        if(age < 18){ 
+            System.out.println("Child");
+        }else{  
+            System.out.println("Vote");
+        }
+    }
+    
+    public static void main(String args[]){  
+    
+        try{ 
+            checker(15);
+        }catch(Exception e){  
+            System.out.println(e);
+        }
+    
+        System.out.println("Java");
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+class validVoter extends Exception{ 
+    validVoter(String s){ 
+        super(s);
+    }
+}
+
+public class Main
+{
+    
+    static void ageChecker(int age) throws Exception{  
+        if (age < 18){ 
+            throw new validVoter("Kids");
+        } else{ 
+            System.out.println("Voter");
+        }
+    }    
+    
+	public static void main(String[] args) {
+		try{ 
+		    ageChecker(15);
+		}catch(Exception e){
+		    System.out.println(e);
+		}
+	}
+	
+	
+	
+	
+}
