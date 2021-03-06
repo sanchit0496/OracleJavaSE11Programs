@@ -1,0 +1,38 @@
+public class Main{
+	
+	int x;
+	
+	//constructor
+	public Main(){  
+	    x = 10;
+	}
+	
+	public static void main(String[] args) {
+		
+		Main obj = new Main();
+		System.out.println(obj.x);
+		
+	}
+}
+
+
+
+public class Main{
+	
+	int x;
+	
+	//constructor
+	public Main(int y){  
+	    x = y;
+	}
+	
+	public static void main(String[] args) {
+		
+		Main obj = new Main(10);
+
+		System.out.println(obj.x);
+// 		System.out.println(obj.y);
+
+		
+	}
+}
