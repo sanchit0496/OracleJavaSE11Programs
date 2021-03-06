@@ -1,0 +1,21 @@
+public class Main{
+    
+    static void voter(int age){  
+        
+        if(age < 18){ 
+            System.out.println("Child");
+        }else{ 
+            System.out.println("Voter");
+        }
+        
+    }
+    
+    
+	public static void main(String[] args) {
+		
+		Main obj1 = new Main();
+		obj1.voter(15);
+		obj1.voter(19);
+		
+	}
+}
