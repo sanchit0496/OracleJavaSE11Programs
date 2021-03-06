@@ -36,3 +36,45 @@ public class Main{
 		
 	}
 }
+
+
+
+//constructor parameter
+public class Main{
+    
+    int price;
+    String pizza;
+	
+	public Main(int a, String b){  
+	    price = a;
+	    pizza = b;
+	}
+	
+	public static void main(String[] args) {
+		
+		Main obj = new Main(10, "Vegetarian");
+		System.out.println(obj.price);
+		System.out.println(obj.pizza);
+		
+	}
+}
+
+//this
+public class Main{
+    
+    int price;
+    String pizza;
+	
+	public Main(int a, String b){  
+	    this.price = a;
+	    this.pizza = b;
+	}
+	
+	public static void main(String[] args) {
+		
+		Main obj = new Main(10, "Vegetarian");
+		System.out.println(obj.price);
+		System.out.println(obj.pizza);
+		
+	}
+}
