@@ -167,3 +167,27 @@ public class Main
     }
     
 }
+
+
+public class Main{	
+    
+    public void drink(){ 
+        System.out.println("Juice");
+    }
+    
+    public void food(){ 
+        System.out.println("Pizza");
+    }
+    
+    
+    public static void main(String[] args) {
+		
+	    Main a = new Main();
+	    Main b = new Main();
+	   
+	    a.drink();
+	    b.food();
+	    
+		
+	}
+}
