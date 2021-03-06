@@ -109,3 +109,33 @@ public class Main{
 
 
 
+public class Main
+{
+    
+    int a  = 10;
+    int b = 1;
+    
+	public static void main(String[] args) {
+		
+		Main obj1 = new Main();
+		Main obj2 = new Main();
+		
+		System.out.println(obj1.a);
+		System.out.println(obj2.b);
+	}
+}
+
+public class Main
+{
+    
+    int a  = 10;
+    
+    static void vehicle(){
+        System.out.println("Mercedes");
+    }
+    
+    public static void main(String[] args){  
+        vehicle();
+    }
+    
+}
