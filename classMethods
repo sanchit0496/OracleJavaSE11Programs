@@ -139,3 +139,31 @@ public class Main
     }
     
 }
+
+
+
+
+public class Main
+{
+    
+    int a  = 10;
+    
+    static void vehicle(){
+        System.out.println("Mercedes");
+    }
+    
+    public void bike(){  
+        System.out.println("Ducati");
+    }
+    
+    public static void main(String[] args){  
+        
+        vehicle(); // directly calling static method
+        
+        Main golu = new Main(); //create object of Main and call method
+        golu.bike();
+        
+        
+    }
+    
+}
