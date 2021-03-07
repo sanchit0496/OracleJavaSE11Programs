@@ -78,3 +78,19 @@ public class Main{
         System.out.println(Integer.toString(2)); //modified toString method has been called
 	}
 }
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	    String s = new String("Rainbow");
+	    
+	   // System.out.println(s.charAt(1));
+	    
+	    char[] ch = new char[10];
+	    s.getChars(0, 2, ch, 8);
+	    System.out.println(ch);
+	    
+	
+	}
+}
