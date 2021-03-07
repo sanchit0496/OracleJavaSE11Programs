@@ -51,3 +51,29 @@ public class Main{
 
 	}
 }
+
+
+
+
+
+class Pet{ 
+    String bike;
+    int cc;
+    Pet(String
+    a, int b){
+        this.bike = a;
+        this.cc = b;
+    }
+    public String toString(){  
+        return this.bike + " is a " + this.cc + " cc bike";
+    }
+}  
+
+public class Main{
+
+	public static void main(String[] args) {
+
+        Pet obj1 = new Pet("Hunk", 150);
+        System.out.println(obj1.toString());
+	}
+}
