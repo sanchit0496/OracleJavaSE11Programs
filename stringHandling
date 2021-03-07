@@ -28,6 +28,13 @@ public class Main{
 	   // int len = s.length();
 	   // System.out.println(len);
 	
-		
+	   // String s1 = "Java";
+        char[] ch = {'J', 'a', 'v', 'a'};
+        String s1 = new String(ch);
+	    String s2 = "Programming";
+	    String s = s1.concat(s2);
+	    System.out.println(s1 + " " + s2);
+	    System.out.println(s);
+	    
 	}
 }
