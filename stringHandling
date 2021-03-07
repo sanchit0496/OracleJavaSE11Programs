@@ -55,7 +55,6 @@ public class Main{
 
 
 
-
 class Pet{ 
     String bike;
     int cc;
@@ -64,8 +63,9 @@ class Pet{
         this.bike = a;
         this.cc = b;
     }
+    
     public String toString(){  
-        return this.bike + " is a " + this.cc + " cc bike";
+        return this.bike + " is a " + this.cc + " cc bike"; //overriding the toString method
     }
 }  
 
@@ -75,5 +75,6 @@ public class Main{
 
         Pet obj1 = new Pet("Hunk", 150);
         System.out.println(obj1.toString());
+        System.out.println(Integer.toString(2)); //modified toString method has been called
 	}
 }
