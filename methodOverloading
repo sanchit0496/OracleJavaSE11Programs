@@ -1,0 +1,19 @@
+public class Main
+{
+    
+    public void one(int a){ 
+        System.out.println(a);
+    }
+    
+    public void one(int a, int b){ 
+        System.out.println(a + " and " + b);
+    } 
+    
+	public static void main(String[] args) {
+		
+		Main obj1 = new Main();
+		obj1.one(10);
+		obj1.one(10,20);
+		
+	}
+}
