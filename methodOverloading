@@ -17,3 +17,125 @@ public class Main
 		
 	}
 }
+,
+//method overloading is not possible by changing the return type of the method only because of ambiguity
+
+public class Main{
+    
+    static int one(int a, int b){ 
+        return (a+b); 
+    }
+    
+    static double one(double a, double b){ 
+        return (a+b); 
+    } 
+    
+    public void one(){ 
+        System.out.println("Java");
+    }
+    
+	public static void main(String[] args) {
+		
+		Main obj1 = new Main();
+		int a = obj1.one(10, 20);
+		double b = obj1.one(10.20,2.10);
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+	}
+}
+
+
+
+
+
+//constructor overloading
+
+
+
+class Box{ 
+    
+    int length;
+    int width;
+    int height;
+    
+    Box(int length, int width, int height){
+        this.length = length;
+        this.width = width;
+        this.height = height;
+    }
+    
+    //cube
+    Box(int a){ 
+        length = width = height = a;
+    }
+    
+    Box(){ 
+        length = -1;
+        width = -1;
+        height = -1;
+    }
+    
+    int boxvolume(){ 
+        return (length * width * height);
+    } 
+    
+} 
+
+
+
+public class Main{
+	public static void main(String[] args) {
+
+		Box obj1 = new Box(1,2,3);
+		Box obj2 = new Box(1);
+		Box obj3 = new Box();
+
+		
+		int a = obj1.boxvolume();
+		int b = obj2.boxvolume();
+		int c = obj3.boxvolume();
+		
+		System.out.println(a);
+		System.out.println(b);
+        System.out.println(c);
+	}
+}
+
+
+
+
+//using object as parameter
+
+class Box{
+    
+    int length; 
+    int breadth;
+    
+    Box(int a, int b){
+        length = a;
+        breadth = b;
+    }
+    
+    boolean ans(Box y){ 
+        if((y.length == length) && (y.breadth == breadth)){  
+            return true;
+        }else{  
+            return false;
+        }
+    }
+    
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	    Box test = new Box(1,5);
+	    Box test1 = new Box(5,5);
+		
+		boolean w = test.ans(test1);
+		System.out.println(w);
+	}
+}
