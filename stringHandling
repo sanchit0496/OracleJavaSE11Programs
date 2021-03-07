@@ -36,13 +36,18 @@ public class Main{
 	   // System.out.println(s1 + " " + s2);
 	   // System.out.println(s);
 	   
-	   String s = "Java";
-	   int a = 2;
-	   int b = 5;
-	   System.out.println(s + a + b); //Java25
-	   System.out.println(s + (a + b)); //Java7
+	   //String s = "Java";
+	   //int a = 2;
+	   //int b = 5;
+	   //System.out.println(s + a + b); //Java25
+	   //System.out.println(s + (a + b)); //Java7
 
+        // System.out.println(Integer.toString(2));
         
 	    
+
+        
+
+
 	}
 }
