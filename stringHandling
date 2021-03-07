@@ -1,7 +1,8 @@
 public class Main{
 	public static void main(String[] args) {
 		
-		char[] ch = {'a','b','c','d','e'};
+// 		char[] ch = {'a','b','c','d','e'};
+		
 // 		for(char c : ch){ 
 // 		    System.out.print(c + " ");
 // 		}
@@ -11,11 +12,22 @@ public class Main{
 // 		String s2 = new String(ch, 0, 2);
 // 		System.out.println(s1);
 // 		System.out.println(s2);
-
-
-
-
-
+		
+// 		String s1 = new String(ch);
+// 		String s2 = new String(s1);
+// 		System.out.println(s1);
+// 		System.out.println(s2);
+	
+	   // char[] ascii = {65,66,67,68,69,70};
+	   // String s1 = new String(ascii, 0,2);
+	   // String s2 = new String(ascii);
+	   // System.out.println(s1);
+	   // System.out.println(s2);
+	
+	   // String  s = new String("hello");
+	   // int len = s.length();
+	   // System.out.println(len);
+	
 		
 	}
 }
