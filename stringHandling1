@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+	
+	   //String s1 = "hello";
+	   //String s2 = "Hello";
+	   
+	   //System.out.println(s1.equals(s2));
+	   //System.out.println(s1.equalsIgnoreCase(s2));
+	  
+	   String s4 = "rainbow";
+	   String s5 = "rain";
+	   
+	   System.out.println(s5.regionMatches(1, s4, 1, 2));
+	   
+	}
+}
