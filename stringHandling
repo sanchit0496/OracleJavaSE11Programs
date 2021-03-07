@@ -1,0 +1,21 @@
+public class Main{
+	public static void main(String[] args) {
+		
+		char[] ch = {'a','b','c','d','e'};
+// 		for(char c : ch){ 
+// 		    System.out.print(c + " ");
+// 		}
+// 		System.out.println();
+
+// 		String s1 = new String(ch);
+// 		String s2 = new String(ch, 0, 2);
+// 		System.out.println(s1);
+// 		System.out.println(s2);
+
+
+
+
+
+		
+	}
+}
