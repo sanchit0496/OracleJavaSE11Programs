@@ -15,3 +15,35 @@ public class Main
 	   
 	}
 }
+
+//getChars will even update the array elements already there
+	   //System.out.println(s5.regionMatches(1, s4, 1, 2));
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	   //String s1 = "hello";
+	   //String s2 = "Hello";
+	   
+	   //System.out.println(s1.equals(s2));
+	   //System.out.println(s1.equalsIgnoreCase(s2));
+	   
+       //String s4 = "rainbow";
+	   //String s5 = "rain";
+	   
+	   String s = "Rainbow";
+	   char[] ch = new char[10];
+	   ch[0] = 'a';
+	   ch[1] = 'b';
+	   s.getChars(0,4,ch,1);
+	   
+	   for(char c: ch){ 
+	       System.out.print(c + " ");
+	   }
+	   System.out.println();
+	   
+	   //System.out.println(s5.regionMatches(1, s4, 1, 2));
+	   
+	}
+}
