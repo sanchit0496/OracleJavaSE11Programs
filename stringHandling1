@@ -47,3 +47,29 @@ public class Main
 	   
 	}
 }
+
+
+
+public class Main{
+	public static void main(String[] args) {
+	
+		String s = "Hello";
+		String s1 = "Hello";
+		//String s1 = new String(s);
+		
+		
+		boolean ans = s.equals(s1);
+		boolean ans1 = s == (s1);
+		System.out.println(ans);
+		System.out.println(ans1);
+		
+// 		System.out.println(ans);
+// 		if(s == s1){ 
+// 		    System.out.println("true");
+// 		}else{ 
+		    
+// 		    System.out.println("false");
+// 		}
+		
+	}
+}
