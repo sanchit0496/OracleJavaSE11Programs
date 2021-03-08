@@ -109,3 +109,59 @@ public class Main{
 	}
 }
 
+
+
+
+public class Main{
+	public static void main(String[] args) {
+	
+// 		String s = "Hello";
+// 		String s1 = "Hello";
+// 		//String s1 = new String(s);
+		
+		
+// 		boolean ans = s.equals(s1);
+// 		boolean ans1 = s == (s1);
+// 		System.out.println(ans);
+// 		System.out.println(ans1);
+		
+// 		System.out.println(ans);
+// 		if(s == s1){ 
+// 		    System.out.println("true");
+// 		}else{ 
+		    
+// 		    System.out.println("false");
+// 		}
+		
+		
+// 		String s1 = "rainbow";
+// 		String s2 = "mountain";
+		
+// 		System.out.println(s1.compareTo(s2));
+// 		System.out.println(s2.compareTo(s1));
+// 		String s1 = "mississipi";
+// 		System.out.println(s1.lastIndexOf('s'));
+// 		System.out.println(s1.substring(1,5));
+		
+// 		String s1 = "hello";
+// 		String s2 = "java";
+// 		System.out.println(s1.concat(s2));
+// 		s1 = s1.replace('l', 'w');
+// 		System.out.println(s1);
+		
+		
+// 		String s1 = "    Hello     ";
+// 		int len1 = s1.length();
+// 		System.out.println(len1);
+// 		s1 = s1.trim();
+// 		s1 = s1.toLowerCase();
+// 		String s2 = s1.toUpperCase();
+// 		System.out.println(s1);
+// 		System.out.println(s2);
+
+        int a = 10;
+        String s = String.valueOf(a);
+		s = s + 10;
+		System.out.println(s);
+	}
+}
