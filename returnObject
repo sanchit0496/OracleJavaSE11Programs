@@ -1,0 +1,25 @@
+//returning object
+class Test{  
+    int a;
+    Test(int i){ 
+        a = i;
+    }
+    Test increaseTen(){ 
+        Test tempOb = new Test(a + 2);
+        return tempOb;
+    }
+}
+
+
+public class Main{
+	public static void main(String[] args) {
+		
+	    Test obj1 = new Test(2);
+	    Test obj2;
+	    obj2 = obj1.increaseTen();
+	    
+	    System.out.println(obj1.a);
+	    System.out.println(obj2.a);
+		
+	}
+}
