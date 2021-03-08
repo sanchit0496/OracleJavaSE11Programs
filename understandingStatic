@@ -1,0 +1,25 @@
+class statics{ 
+    //1 first variables
+    static int a = 10;
+    static int b;
+    
+    //4 print done
+    void meth(int x){ 
+        System.out.println("a :" + a);
+        System.out.println("b :" + b);
+        System.out.println("x :" + x);
+    }
+    //2 then the value of b
+    static{ 
+        b = a * 4;
+    }
+}
+
+
+public class Main{
+	public static void main(String[] args) {
+	    //3 method called
+	    statics obj1 = new statics();
+		obj1.meth(12);
+	}
+}
