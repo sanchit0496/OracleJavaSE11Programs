@@ -1,0 +1,101 @@
+//inncerclass
+class outerClass{ 
+    
+    int x = 10;
+    
+    class innerClass{ 
+        int y = 20;
+    } 
+    
+}
+
+public class Main{
+	public static void main(String[] args) {
+	 outerClass oc = new outerClass();
+	 outerClass.innerClass ic = oc.new innerClass(); //create outer and then inner class using the new
+	 System.out.println(oc.x +  " " + ic.y);
+	}
+}
+
+
+//the private inner class
+class outerClass{ 
+    
+    int x = 10;
+    
+    private class innerClass{ 
+        int y = 20;
+    } 
+    
+}
+
+public class Main{
+	public static void main(String[] args) {
+	 outerClass oc = new outerClass();
+	 outerClass.innerClass ic = oc.new innerClass();
+	 System.out.println(oc.x +  " " + ic.y);
+	}
+}
+
+
+//the static inner class An inner class can also be static, which means that you can access it without creating an object of the outer class:
+
+
+class outerClass{ 
+    
+    int x = 10;
+    
+    static class innerClass{ 
+        int y = 20;
+    } 
+    
+}
+
+public class Main{
+	public static void main(String[] args) {
+	 outerClass oc = new outerClass();
+	 outerClass.innerClass ic = new outerClass.innerClass();
+	 System.out.println(oc.x +  " " + ic.y);
+	}
+}
+
+
+
+
+//Access Outer Class From Inner Class
+class outerClass{ 
+    
+    int x = 10;
+    
+    class innerClass{ 
+        public int yeah(int a){
+            return a;
+        }
+    } 
+    
+}
+
+public class Main{
+	public static void main(String[] args) {
+	 outerClass oc = new outerClass();
+	 outerClass.innerClass ic = oc.new innerClass();
+	 System.out.println(ic.yeah(oc.x));
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
