@@ -1,3 +1,5 @@
+//variable number of parameters in method and it seeks for the best suited
+
 class Test{  
     int a;
     void meth(int a){ 
@@ -17,3 +19,16 @@ public class Main{
 	    obj1.meth(5,4,6,2);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
