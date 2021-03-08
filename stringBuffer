@@ -7,3 +7,16 @@ public class Main{
 
 	}
 }
+
+
+public class Main{
+	public static void main(String[] args) {
+		
+	    StringBuffer sb = new StringBuffer("hello");
+	    //sb.ensureCapacity(40); 
+	    sb.setLength(10);
+	    System.out.println(sb.length());
+	    System.out.println(sb.capacity());
+
+	}
+}
