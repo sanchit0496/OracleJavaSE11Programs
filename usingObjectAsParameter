@@ -1,0 +1,68 @@
+//usingObjectAsParameter
+
+class Test{  
+    int a;
+    int b;
+    Test(int i, int j){  
+        a = i;
+        b = j;
+    }
+    boolean equals(Test t){  
+        if(t.a == a && t.b == b){  
+            return true;
+        }
+        return false;
+    }
+}
+
+public class Main{
+    
+	public static void main(String[] args) {
+        Test obj1 = new Test(10,10);	
+        Test obj2 = new Test(10,5);	
+        Test obj3 = new Test(10,10);	
+
+        boolean ans1 = obj1.equals(obj3);
+        boolean ans2 = obj1.equals(obj2);
+        System.out.println(ans1);
+        System.out.println(ans2);
+
+	}
+}
+
+
+
+
+
+
+//usingObjectAsParameter
+class Test{ 
+    int a;
+    int b;
+    Test(int i, int j){ 
+        a = i;
+        b = j;
+    }
+    boolean equals(Test t){ 
+        if(t.a == a && t.b == b){ 
+            return true;
+        }
+        return false;
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Test obj1 = new Test(10,10);
+	    Test obj2 = new Test(10,5);
+	    Test obj3 = new Test(10,10);
+
+        boolean ans1 = obj1.equals(obj3);
+        boolean ans2 = obj1.equals(obj2);
+	    
+	    System.out.println(ans1);
+	    System.out.println(ans2);
+	    
+	}
+}
