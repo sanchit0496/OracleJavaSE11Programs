@@ -1,0 +1,60 @@
+//value
+class Test{
+    void meth(int i, int  j){  
+        i = i + 10;
+        j = j + 10;
+    }
+}
+
+public class Main{
+	public static void main(String[] args) {
+		
+        Test obj1 = new Test();
+        int a = 15;
+        int b = 25;
+        
+        System.out.println("Before Call: " + a +  " " + b);
+        
+        obj1.meth(a,b);
+		
+        System.out.println("After Call: " + a +  " " + b);
+		
+	}
+}
+//15 25
+//15 25
+
+
+
+
+
+
+
+
+
+//reference
+class Test{
+    int a;
+    int b;
+    Test(int i, int j){ 
+        a = i;
+        b = j;
+    }
+    void meth(Test t){  
+        t.a = (t.a * 2);
+        t.b = (t.b * 10);
+    }
+}
+
+public class Main{
+	public static void main(String[] args) {
+		Test obj1 = new Test(15,20);
+		System.out.println("Before : " + obj1.a + " " + obj1.b);
+		
+		obj1.meth(obj1);
+		System.out.println("After : " + obj1.a + " " + obj1.b);
+		
+	}
+}
+//15 20
+//30 200 
