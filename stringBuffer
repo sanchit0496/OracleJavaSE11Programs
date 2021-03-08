@@ -20,3 +20,45 @@ public class Main{
 
 	}
 }
+
+
+
+
+public class Main{
+	public static void main(String[] args) {
+		
+	   // StringBuffer sb = new StringBuffer("hello");
+	   // //sb.ensureCapacity(40); 
+	   //// sb.setLength(10);
+	   //// System.out.println(sb.length());
+	   //// System.out.println(sb.capacity());
+	   
+	   //char a = sb.charAt(1);
+	   //System.out.println(a);
+	   
+	   //sb.setCharAt(1, 'a');
+	   //System.out.println(sb);
+
+        StringBuffer sb = new StringBuffer("Rainbow");
+        // char[] ch = new char[10];
+        // sb.getChars(1,4,ch,0);
+        // for(char c: ch){  
+        //     System.out.print(c);
+        // }
+        // System.out.println();
+        
+        // sb.append("beautiful");
+        // System.out.println(sb.toString());
+        
+        //sb.insert(1, "beautiful");
+        //System.out.println(sb.reverse());
+        //sb.delete(1,4);
+        //sb.deleteCharAt(1);
+        //sb.replace(1,2,"rain");
+        
+        // StringBuffer sb1 = new StringBuffer(sb.substring(1,5));
+        
+        // System.out.println(sb);
+        // System.out.println(sb1);
+	}
+}
