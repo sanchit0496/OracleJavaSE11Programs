@@ -1,0 +1,19 @@
+class Test{  
+    int a;
+    void meth(int a){ 
+        System.out.println(a);
+    }
+     void meth(int ...a){ 
+        for(int b : a){ 
+            System.out.print(b);
+        }
+    }
+}
+
+public class Main{
+	public static void main(String[] args) {
+		Test obj1 = new Test();
+		obj1.meth(1);
+	    obj1.meth(5,4,6,2);
+	}
+}
