@@ -1,7 +1,7 @@
 //the variables can be user of super and values can be changed bro
 
 class A{ 
-    int a;
+    int a; //private, a has private access in A
     int b;
     void showA(){ 
         System.out.println(a + " " + b);
