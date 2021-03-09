@@ -1,0 +1,37 @@
+//the variables can be user of super and values can be changed bro
+
+class A{ 
+    int a;
+    int b;
+    void showA(){ 
+        System.out.println(a + " " + b);
+    }
+}
+
+class B extends A{ 
+    int c;
+    void showB(){ 
+        System.out.println(c);
+    }
+    void sum(){ 
+        System.out.println("sum " + (a+b+c));
+    }
+} 
+
+public class Main
+{
+	public static void main(String[] args) {
+		A superA = new A();
+		B smallB = new B();
+		superA.a = 10;
+		superA.b = 20;
+		
+		smallB.a = 40;
+		smallB.b = 20;
+		smallB.c = 40;
+		superA.showA();
+		smallB.showB();
+		smallB.sum();
+		
+	}
+}
