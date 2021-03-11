@@ -154,3 +154,6 @@ public class Main{
         calc.fourtimes(20);
     }
 }
+
+
+
