@@ -115,3 +115,43 @@ class Main
       System.out.println ("Weight of mybox2 is " + mybox2.weight);
   }
 }
+
+
+
+
+
+
+
+
+
+
+//super is only used with subclasses and can be used to customise that which parameter we want
+//if the nonparamter constructor wants to call the parameter constructor then add super(number)
+
+class A{ 
+    public A(){ 
+        System.out.println("A");
+    }
+    public A(int i){
+        System.out.println("Parameter A");
+    }
+}
+
+class B extends A{ 
+    public B(){ 
+        super(5);
+        System.out.println("B");
+    }
+    public B(int i){ 
+        super();
+        System.out.println("Parameter B");
+    }
+}
+
+public class Main{
+	public static void main(String[] args) {
+		B obj2 = new B();
+	}
+}
+
+
