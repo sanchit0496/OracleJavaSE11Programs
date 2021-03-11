@@ -157,3 +157,72 @@ public class Main{
 
 
 
+//instanceof
+class Animal{ 
+    
+}
+class water extends Animal{ 
+    
+}
+class reptile extends water{ 
+    
+}
+
+
+class Main extends Animal{ 
+    public static void main(String[] args){
+        Animal a = new Animal();
+        water w = new water();
+        reptile r = new reptile();
+        Main m = new Main();
+        
+        System.out.println(w instanceof Animal); //true
+        System.out.println(r instanceof Animal); ///true
+        System.out.println(m instanceof Animal); //true
+        System.out.println(r instanceof water); //true
+
+    }
+}
+
+
+
+
+//inherits and extends keyword
+interface Animal{ 
+    
+}
+class Mammal implements Animal{ 
+    
+}
+class Reptile extends Mammal{ 
+    
+}
+class groundreptile extends Reptile{ 
+    
+}
+class Main extends Mammal{  
+    public static void main(String[] args){  
+        Mammal m = new Mammal();
+        Reptile r = new Reptile();
+        groundreptile gr = new groundreptile();
+        Main n = new Main();
+        
+        System.out.println(m instanceof Animal);
+        System.out.println(n instanceof Animal);
+        System.out.println(r instanceof Mammal);
+        System.out.println(gr instanceof Reptile);
+        System.out.println(gr instanceof Animal);
+        System.out.println(gr instanceof Mammal);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
