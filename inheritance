@@ -125,3 +125,32 @@ class Main
 
 
 
+//inheritance
+class Calculation{ 
+    int m;
+    public void addition(int a, int b){ 
+        m = a + b;
+        System.out.println("addition " + m);
+    }
+    public void multiplication(int a, int b){ 
+        m = a * b;
+        System.out.println("multiplication " + m );
+    }
+}
+
+class advanceCalculation extends Calculation{ 
+    int z;
+    public void fourtimes(int a){ 
+        z = a*a*a*a;
+        System.out.println("four " + z);
+    }
+}
+  
+public class Main{ 
+    public static void main(String[] args){ 
+        advanceCalculation calc = new advanceCalculation();
+        calc.addition(20,20);
+        calc.multiplication(20,20);
+        calc.fourtimes(20);
+    }
+}
