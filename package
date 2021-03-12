@@ -1,0 +1,17 @@
+//package hello;
+
+class Dog{ 
+    String name;
+    
+    public void desc(String s){ 
+        System.out.println("name: " + s);
+    }
+    
+}
+
+public class Main{
+	public static void main(String[] args) {
+	    Dog d = new Dog();
+	    d.desc("bruno");
+	}
+}
