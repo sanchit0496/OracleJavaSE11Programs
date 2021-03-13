@@ -153,3 +153,25 @@ class Main {
         bike.printStates(); 
     } 
 }
+
+
+
+
+//Prior to JDK 8, interface could not define implementation. We can now add default 
+//implementation for interface methods. This default implementation has special use 
+//and 
+//does not affect the intention behind interfaces
+interface in1{ 
+    final int a = 10;
+    default void display(){ 
+        System.out.println("hello");
+    }
+}
+
+class Main implements in1{  
+    public static void main(String[] args){  
+        Main m = new Main();
+        m.display();
+    }
+}
+
