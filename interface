@@ -24,3 +24,23 @@ public class Main implements Animal{
     }  
     
 }  
+
+import java.io.*;
+
+interface player{  
+    final int a = 10;
+    void display();
+}
+
+class Main implements player{  
+    public void display(){ 
+        System.out.println("Geek");
+    }  
+    public static void main(String[] args){ 
+        Main m = new Main();
+        m.display();
+        System.out.println(a);
+    }
+    
+    
+}
