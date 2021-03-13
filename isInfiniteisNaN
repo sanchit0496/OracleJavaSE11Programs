@@ -1,0 +1,24 @@
+//isInfinite and isNaN methods
+public class Main
+{
+	public static void main(String[] args) {
+		
+		Double a = new Double(1/0.);
+        Double b = new Double(0/0.);
+		
+		System.out.println("a isInfinite: " + a.isInfinite());
+		System.out.println("a isNaN: " + a.isNaN());
+		System.out.println("b isInfinite: " + b.isInfinite());
+		System.out.println("b isNaN: " + b.isNaN());
+	    
+	}
+}
+
+
+
+
+//output
+a isInfinite: true
+a isNaN: false
+b isInfinite: false 
+b isNaN: true
