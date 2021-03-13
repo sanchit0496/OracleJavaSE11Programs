@@ -68,8 +68,38 @@ public class Main{
         // Long a = new Long(123234234);
         // System.out.println(a.longValue());
         
-        System.out.println(Integer.numberOfLeadingZeros(5));        
-        System.out.println(Integer.numberOfTrailingZeros(5));        
+        // System.out.println(Integer.numberOfLeadingZeros(5));        
+        // System.out.println(Integer.numberOfTrailingZeros(5));        
 
+
+        // //String s = "2151"; //Integer
+        // //System.out.println(Integer.parseInt(s));
+        // //System.out.println(Integer.parseUnsignedInt("2151",8));
+
+        // //System.out.println(Integer.remainderUnsigned(12,5));//remainder
+        
+        
+        // // int a = 202;
+        // // System.out.println(Integer.reverse(a));
+        // // System.out.println(Integer.reverseBytes(a));
+        // //System.out.println(Integer.rotateLeft(10,2));       
+        // //System.out.println(Integer.rotateRight(1,2));       
+        
+        // String a = "1250";
+        // String b = "-9999";
+        // System.out.println(Integer.valueOf(a)); //take care of everything
+        // System.out.println(Integer.valueOf(b));
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 	} 
 }
