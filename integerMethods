@@ -1,33 +1,75 @@
 public class Main{
 	public static void main(String[] args) {
 		
-// 		int n = 97;
-// // 		//binary string
-// // 		System.out.println(Integer.toBinaryString(n));
+// // 		int n = 97;
+// // // 		//binary string
+// // // 		System.out.println(Integer.toBinaryString(n));
 		
-// //         //count 1s
-// //         System.out.println(Integer.bitCount(n));
+// // //         //count 1s
+// // //         System.out.println(Integer.bitCount(n));
 		
-// // 		Integer val = new Integer(n);
-// // 		System.out.println(val.byteValue());
+// // // 		Integer val = new Integer(n);
+// // // 		System.out.println(val.byteValue());
 		
 		
-// 		int a = 51;
-// 		int b = 10;
-// 		Integer val1 = new Integer(a);
-// 		Integer val2 = new Integer(b);
-// // 		System.out.println(Integer.compare(a, b)); //comparator
-// // 		System.out.println(val1.compareTo(val2)); //comparable
-// // 		System.out.println(Integer.compareUnsigned(val1,val2)); //compares the value only without signs here
+// // 		int a = 51;
+// // 		int b = 10;
+// // 		Integer val1 = new Integer(a);
+// // 		Integer val2 = new Integer(b);
+// // // 		System.out.println(Integer.compare(a, b)); //comparator
+// // // 		System.out.println(val1.compareTo(val2)); //comparable
+// // // 		System.out.println(Integer.compareUnsigned(val1,val2)); //compares the value only without signs here
 		
-// 		//divideUnsigned it returns the quotient only
-// 		System.out.println(Integer.divideUnsigned(a,b));
+// // 		//divideUnsigned it returns the quotient only
+// // 		System.out.println(Integer.divideUnsigned(a,b));
+
+        
+//         // //returns the value as double equivalent only 25 into 25.0 console
+//         // Double d1 = new Double(25);
+//         // System.out.println(d1.doubleValue());
+        
+//         //equals methods returns boolean 
+// //         Integer a1 = new Integer(10);
+// //         Integer a2 = new Integer(10);
+        
+// // 		System.out.println(a1.equals(a2));
+		
+// 		//converts any into float value
+// // 		Integer a  = new Integer(20);
+// // 		Float b = new Float(1231432423);
+// // 		System.out.println(a.floatValue());
+// // 		System.out.println(b.floatValue());
 
 
+//         //getInteger()
+//         //String str=" ";
+//         ////set property for avoiding the execption only integer
+//         // System.setProperty(str,"123");
+//         // int val=Integer.getInteger(str);
+//         // System.out.println(val);
+        
+//         //for Integer hashCode will always be same as number
+//         Integer val = new Integer(155);
+//         int hv = val.hashCode();
+//         System.out.println(hv);
+        
+//         // //lowestOneBit
+//         // System.out.println(Integer.lowestOneBit(5));
+//         // //highestOneBit
+//         // System.out.println(Integer.highestOneBit(5));
+        
+//         System.out.println(Integer.max(10,2));
+// 		System.out.println(Integer.min(10,2));
 
 
-		
-		
-		
+        // Double a = new Double(22.50);
+        // System.out.println(a.intValue());
+        
+        // Long a = new Long(123234234);
+        // System.out.println(a.longValue());
+        
+        System.out.println(Integer.numberOfLeadingZeros(5));        
+        System.out.println(Integer.numberOfTrailingZeros(5));        
+
 	} 
 }
