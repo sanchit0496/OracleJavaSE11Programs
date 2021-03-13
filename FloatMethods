@@ -1,0 +1,66 @@
+//all the float methods
+import java.lang.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   float a = 10.25F;
+	   String b = "45";
+	   
+	   Float x = new Float(a);
+	   Float y = new Float(b);
+	   
+	   //toString
+	   //System.out.println(Float.toString(a));
+	   
+	   //Float z = Float.valueOf(a);
+	   //System.out.println(z);
+	   //z = Float.valueOf(b);
+	   //System.out.println(z);
+	   
+	   // System.out.println("bytevalue(x) = " + x.byteValue()); //10
+    //     System.out.println("shortvalue(x) = " + x.shortValue()); //10
+    //     System.out.println("intvalue(x) = " + x.intValue()); //10
+    //     System.out.println("longvalue(x) = " + x.longValue()); //10
+    //     System.out.println("doublevalue(x) = " + x.doubleValue()); //10.25
+    //     System.out.println("floatvalue(x) = " + x.floatValue()); //10.25
+
+        // int hash = x.hashCode();
+        // System.out.println(hash);
+        
+    //     boolean ans = x.equals(y);
+    //     System.out.println(ans);
+	    
+	   // int e = Float.compare(x,y);
+	   // System.out.println(e); //-1 because x is smaller
+	    
+	   // int f = x.compareTo(y);
+	   // System.out.println(f); //-1 because x is smaller
+	   
+	   // Float d = new Float(1010.54789654123654);
+    //     System.out.println(d.isNaN()); //false
+	    
+	   // System.out.println(Float.isNaN(1010.54789654123654F));
+	   // //false
+	   
+	   //this checks if the number is infinity 
+	   // Float d  = new Float(Float.POSITIVE_INFINITY);
+	   // System.out.println(Float.isInfinite(d));
+	    
+	   float dd = 10245.21452F; 
+    //     System.out.println("Float.toString(dd) = " 
+    //                                     + Float.toHexString(dd)); 
+	    
+	  
+	  //Float to int bits
+	    int ib = Float.floatToIntBits(dd);
+	    System.out.println(ib);
+	  
+	  //int bits to Float
+        float bf = Float.intBitsToFloat(ib);
+        System.out.println(bf);
+	   
+	}
+}
+
