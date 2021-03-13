@@ -1,0 +1,26 @@
+interface Animal{ 
+    public void eat();
+    public void travel();
+}
+
+
+public class Main implements Animal{
+    
+    public void eat(){ 
+        System.out.println("The Food");
+    }
+    public void travel(){  
+        System.out.println("The Travel");
+    }
+    public int totalLegs(){ 
+        return 0;  
+    }
+    
+    public static void main(String[] args){
+        Main m = new Main();
+        m.eat();
+        m.travel();
+        
+    }  
+    
+}  
