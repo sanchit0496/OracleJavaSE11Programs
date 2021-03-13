@@ -1,0 +1,33 @@
+public class Main{
+	public static void main(String[] args) {
+		
+// 		int n = 97;
+// // 		//binary string
+// // 		System.out.println(Integer.toBinaryString(n));
+		
+// //         //count 1s
+// //         System.out.println(Integer.bitCount(n));
+		
+// // 		Integer val = new Integer(n);
+// // 		System.out.println(val.byteValue());
+		
+		
+// 		int a = 51;
+// 		int b = 10;
+// 		Integer val1 = new Integer(a);
+// 		Integer val2 = new Integer(b);
+// // 		System.out.println(Integer.compare(a, b)); //comparator
+// // 		System.out.println(val1.compareTo(val2)); //comparable
+// // 		System.out.println(Integer.compareUnsigned(val1,val2)); //compares the value only without signs here
+		
+// 		//divideUnsigned it returns the quotient only
+// 		System.out.println(Integer.divideUnsigned(a,b));
+
+
+
+
+		
+		
+		
+	} 
+}
