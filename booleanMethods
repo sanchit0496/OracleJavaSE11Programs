@@ -1,0 +1,24 @@
+import java.lang.*;
+
+public class Main{
+	public static void main(String[] args) {
+	
+	   // Boolean b = new Boolean(true); //Object
+	   // boolean bool = b.booleanValue();
+	   // System.out.println(bool);
+	   
+	   Boolean b1 = new Boolean(true);
+	   Boolean b2 = new Boolean(false);
+	   
+	   int res = b1.compareTo(b2);
+	   int res1 = b2.compareTo(b1);
+	   int res2 = b1.compareTo(b1);
+	   int res4 = b2.compareTo(b2);
+	   
+	   System.out.println(res);
+	   System.out.println(res1);
+	   System.out.println(res2);
+	   System.out.println(res4);
+	    
+	}
+}
