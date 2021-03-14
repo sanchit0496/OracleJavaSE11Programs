@@ -9,7 +9,17 @@ public class Main
 		Long z = new Long(bb);
 		
 		//toString();
-		System.out.println(y + " and " + z);
+// 		System.out.println(y + " and " + z);
+		
+// 		System.out.println(Long.toHexString(y)); //37
+// 		System.out.println(Long.toOctalString(y)); //67 
+// 		System.out.println(Long.toBinaryString(y)); //110111
+		
+
+		System.out.println(Long.valueOf(b));
+		Long a = Long.valueOf(b);
+		System.out.println(Long.valueOf(a, 8));
+		
 		
 	}
 }
