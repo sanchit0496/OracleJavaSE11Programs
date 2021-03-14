@@ -16,12 +16,26 @@ public class Main{
 	   // System.out.println(Character.isIdentifierIgnorable(a)); //true 
     
     
-        char a = '*';
-        char b = '\u0017';
-        System.out.println(Character.isISOControl(a));
-        System.out.println(Character.isISOControl(b));
+        // char a = '*';
+        // char b = '\u0017';
+        // System.out.println(Character.isISOControl(a));
+        // System.out.println(Character.isISOControl(b));
 
+        // int c11 = 0x01f1;
+        // //the part other than the first character
+        // System.out.println(Character.isJavaIdentifierPart(c11));
+        // //based on first Character
+        // System.out.println(Character.isJavaIdentifierStart(c11));
+	
+	
+	    Character ch = 'a';
+	    Character ch1 = '1';
+	    System.out.println(Character.isLetter(ch)); //true
+	    System.out.println(Character.isLetterOrDigit(ch)); //true
+	    System.out.println(Character.isLowerCase(ch1)); //false
+	    System.out.println(Character.isLowerCase(ch)); //true
+
+    
 	
 	}
 }
-
