@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		long b = 55;
+		String bb = "25";
+		
+		Long y = new Long(b);
+		Long z = new Long(bb);
+		
+		//toString();
+		System.out.println(y + " and " + z);
+		
+	}
+}
