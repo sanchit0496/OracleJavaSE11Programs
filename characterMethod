@@ -1,0 +1,27 @@
+import java.lang.*;
+
+public class Main{
+	public static void main(String[] args) {
+	
+	    //Character ch = 'a';
+	   // System.out.println(Character.isDefined(ch));
+	   // System.out.println(Character.isDefined('~'));
+	
+	    //System.out.println(Character.isDigit(8)); //false
+	    //System.out.println(Character.isDigit('8')); //true
+
+    //     int a = 8;
+    //     int b = 0x019f;
+	   // System.out.println(Character.isIdentifierIgnorable(b)); //false
+	   // System.out.println(Character.isIdentifierIgnorable(a)); //true 
+    
+    
+        char a = '*';
+        char b = '\u0017';
+        System.out.println(Character.isISOControl(a));
+        System.out.println(Character.isISOControl(b));
+
+	
+	}
+}
+
