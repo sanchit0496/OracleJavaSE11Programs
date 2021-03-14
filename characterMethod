@@ -28,20 +28,29 @@ public class Main{
         // System.out.println(Character.isJavaIdentifierStart(c11));
 	
 	
-	   // Character ch = 'a';
-	   // Character ch1 = '1';
-	   // System.out.println(Character.isLetter(ch)); //true
-	   // System.out.println(Character.isLetterOrDigit(ch)); //true
-	   // System.out.println(Character.isLowerCase(ch1)); //false
-	   // System.out.println(Character.isLowerCase(ch)); //true
+	   //// Character ch = 'a';
+	   //// Character ch1 = '1';
+	   //// System.out.println(Character.isLetter(ch)); //true
+	   //// System.out.println(Character.isLetterOrDigit(ch)); //true
+	   //// System.out.println(Character.isLowerCase(ch1)); //false
+	   //// System.out.println(Character.isLowerCase(ch)); //true
 
         
-        System.out.println(Character.isWhitespace('a'));
-        System.out.println(Character.isWhitespace(' '));
-        System.out.println(Character.toUppercase('a'));
+    //     System.out.println(Character.isWhitespace('a'));
+    //     System.out.println(Character.isWhitespace(' '));
+    //     System.out.println(Character.toUpperCase('a'));
+    //     System.out.println(Character.toString('a'));
+    //     System.out.println(Character.toLowerCase('A'));
+    //     System.out.println(Character.toTitleCase('A'));
 
         
 	
 	}
 }
+
+
+
+
+
+
 
