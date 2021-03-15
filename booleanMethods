@@ -15,10 +15,12 @@ public class Main{
 	   int res2 = b1.compareTo(b1);
 	   int res4 = b2.compareTo(b2);
 	   
+	   //answers
 	   System.out.println(res);
 	   System.out.println(res1);
 	   System.out.println(res2);
 	   System.out.println(res4);
+	    
 	    
 	}
 }
