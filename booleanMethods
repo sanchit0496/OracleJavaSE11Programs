@@ -5,8 +5,9 @@ public class Main{
 	
 	   // Boolean b = new Boolean(true); //Object
 	   // boolean bool = b.booleanValue();
-	   // System.out.println(bool);
+	   // System.out.println(bool); printing
 	   
+
 	   Boolean b1 = new Boolean(true);
 	   Boolean b2 = new Boolean(false);
 	   
@@ -17,6 +18,7 @@ public class Main{
 	   
 	   //answers
 	   System.out.println(res);
+System.out.println(res);
 	   System.out.println(res1);
 	   System.out.println(res2);
 	   System.out.println(res4);
